@@ -30,7 +30,7 @@ const Home = () => {
 
     setMessages([...messages, { role: "user", content: message }]);
 
-    console.log(messages);
+    setMessage("");
 
     setUserMessages([...userMessages, message]);
 
@@ -45,7 +45,6 @@ const Home = () => {
           ...prevLoadingStates.slice(0, -1),
           false,
         ]);
-        setMessage("");
         setResult(res.data.answer.replace(/\n/g, "<br>"));
         setMessages([
           ...messages,
@@ -62,10 +61,10 @@ const Home = () => {
   return (
     <div className="container">
       <nav>
-        <p>Demo AI</p>
+        <p>AskAI</p>
         <ul>
           <li>
-            <a href="https://github.com/devmarcuz/">
+            <a href="https://github.com/devmarcuz/AskAI">
               <FaGithub />
             </a>
             <a href="https://twitter.com/marcuzdrip">
