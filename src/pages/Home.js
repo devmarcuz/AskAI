@@ -18,7 +18,7 @@ const Home = () => {
 
   // const [searching, setSearching] = useState(false)
 
-  const api = "http://localhost:5000/api/question";
+  const api = "https://askai-backend.onrender.com/api/question";
 
   const ai_text =
     "Demo AI is a digital diviner designed to provide helpful and informative responses to your questions and inquirires with the help of artificial intelligence";

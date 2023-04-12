@@ -2,9 +2,9 @@
 
 This is the frontend part of the AskAI project, web app that uses OpenAI's GPT-3 API to generate responses to user queries. The frontend is built using ReactJS and communicates with the server through REST API calls
 
-## Ask AI Backend Respository
+## Ask AI Backend 
 
-[https://github.com/devmarcuz](https://github.com/devmarcuz)
+[https://github.com/devmarcuz/AskAI-Backend](https://github.com/devmarcuz/AskAI-Backend)
 
 ## Usage
 
