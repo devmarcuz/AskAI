@@ -64,10 +64,10 @@ const Home = () => {
         <p>AskAI</p>
         <ul>
           <li>
-            <a href="https://github.com/devmarcuz/AskAI">
+            <a href="https://github.com/devmarcuz/AskAI" target="_blank">
               <FaGithub />
             </a>
-            <a href="https://twitter.com/marcuzdrip">
+            <a href="https://twitter.com/marcuzdrip" target="_blank">
               <FaTwitter />
             </a>
           </li>
